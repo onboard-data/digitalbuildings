@@ -5,12 +5,18 @@ name: Ontology Validator
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - main
+      - onboard-main
     paths:
       - ontology/yaml/**
 
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+      - main
+      - onboard-main
     paths:
       - ontology/yaml/**
  

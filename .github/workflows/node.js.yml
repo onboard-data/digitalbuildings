@@ -8,13 +8,19 @@ on:
     paths:
       - '**.js'
       - ibr/**
-    branches: [ master ]
+    branches:
+      - master
+      - main
+      - onboard-main
     tags: [ ibr ]
   pull_request:
     paths:
       - '**.js'
       - ibr/**
-    branches: [ master ]
+    branches:
+      - master
+      - main
+      - onboard-main
     tags: [ ibr ]
 
 jobs:

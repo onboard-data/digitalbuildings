@@ -5,11 +5,17 @@ name: Tools
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - main
+      - onboard-main
     paths:
       - 'tools/**'
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+      - main
+      - onboard-main
     paths:
       - 'tools/**'
 
